@@ -1,0 +1,26 @@
+.header_enabled {
+    width: 100%;
+    height: 120px;
+    position: fixed;
+    grid-area: h;
+    background-color: black;
+    color: darkorange;
+    padding: 0 0 0 25px;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 5rem;
+}
+.header_disabled {
+    width: 100%;
+    height: 120px;
+    position: fixed;
+    grid-area: h;
+    background-color: darkorange;
+    color: black;
+    padding: 0 0 0 25px;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 5rem;
+}

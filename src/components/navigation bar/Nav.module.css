@@ -1,0 +1,18 @@
+.nav {
+    position: fixed;
+    top: 79px; left: 58px;
+    text-align: left;
+    color: white;
+    object-fit: cover;
+    height: 1000px;
+    width: 500px;
+    font-family: "Archivo Black";
+    font-size: 1.5rem;
+    padding: 50px 0 0 35px;
+    grid-area: n;
+}
+
+
+.nav img {
+    width: 100px;
+}
