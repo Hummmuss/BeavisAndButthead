@@ -2,6 +2,7 @@
     position: relative;
     margin: 0 auto;
     width: 100%;
+    height: 3000px;
     display: grid;
     background-color: black;
     grid-template-areas:
@@ -9,7 +10,7 @@
     "n n c c ."
     ". . c c .";
 
-    grid-template-rows: 120px 230px 1fr;
+    grid-template-rows: 90px 230px 1fr;
     grid-template-columns: 0.5fr 180px 850px 0.5fr 0.5fr;
     grid-gap: 10px;
 }

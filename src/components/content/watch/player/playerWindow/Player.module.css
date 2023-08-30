@@ -1,0 +1,21 @@
+.player {
+    margin: 28px 20px 20px 20px;
+}
+.content {
+    grid-area: c;
+}
+
+.arrows {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+
+.arrow {
+    width: 40px;
+    margin: 30px;
+}
+.arrow:hover{
+    width: 44px;
+    margin: 18px;
+}

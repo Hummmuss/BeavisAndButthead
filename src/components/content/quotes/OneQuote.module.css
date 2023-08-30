@@ -1,0 +1,11 @@
+.item img {
+    object-fit: cover;
+    float: left;
+    height: 160px;
+    width: 220px;
+    margin-right: 40px;
+}
+.item {
+    width: 100%;
+    height: 200px;
+}

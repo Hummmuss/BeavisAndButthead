@@ -1,6 +1,6 @@
 .item {
+    text-align: center;
     width: 210px;
-    background-color: black;
     margin: 10px;
     padding: 10px;
     color: white;
@@ -9,7 +9,6 @@
 
 .item:hover {
     width: 210px;
-    background-color: black;
     margin: 10px;
     padding: 10px;
     color: darkorange;
@@ -17,7 +16,6 @@
 }
 .item img {
     object-fit: cover;
-    float: left;
     height: 200px;
     width: 160px;
     margin: 25.7px;

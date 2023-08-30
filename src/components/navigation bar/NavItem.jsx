@@ -3,7 +3,7 @@ import React from "react";
 
 const NavItem = (props) => {
     return (
-            <div className={style.item}>{props.text}</div>
+        <div href="/about" className={style.item}>{props.text}</div>
     )
 }
 

@@ -5,7 +5,7 @@ import NavItem from "./NavItem";
 const textBlock = () => {
     return (
         <div>
-            <div className ={style.textblock}>
+            <div className={style.textblock}>
                 <NavItem text={'hahah'}/>
                 <NavItem text={'sshit'}/>
                 <NavItem text={'your mother'}/>
