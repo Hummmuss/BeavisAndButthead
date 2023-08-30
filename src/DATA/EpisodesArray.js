@@ -1,5 +1,5 @@
 import React from 'react';
-import Player from "./components/content/watch/player/playerWindow/Player";
+import Player from "../components/content/watch/player/playerWindow/Player";
 
 let EpisodesArray1 = [
     {url: "https://youtu.be/rkWvNUO7qk8", controls: '1'},

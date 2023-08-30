@@ -6,7 +6,7 @@ import Content from "./components/content/watch/Content";
 import About from "./components/content/about/About";
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 import Quotes from "./components/content/quotes/Quotes";
-import EpisodesArray from "./EpisodesArray";
+import EpisodesArray from "./DATA/EpisodesArray";
 
 function App() {
     return (

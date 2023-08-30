@@ -1,11 +1,12 @@
 import React from 'react';
 import {NavLink} from 'react-router-dom';
-import EpisodesArray from '../../../../../EpisodesArray';
-import ArrowLeft from '../../../../../imgs/ArrowLeft.svg';
-import ArrowRight from '../../../../../imgs/ArrowRight.svg'
+import EpisodesArray from '../../../../../DATA/EpisodesArray';
+import ArrowLeft from '../../../../../DATA/imgs/ArrowLeft.svg';
+import ArrowRight from '../../../../../DATA/imgs/ArrowRight.svg'
 import ReactPlayer from "react-player"
 import style from "./Player.module.css"
 import Items from "../items/Items"
+import Comments from "../comments/Comments";
 
 const Player = ({url, controls}) => {
     const currentEpisodeIndex = EpisodesArray.findIndex((episode) => {
@@ -33,6 +34,7 @@ const Player = ({url, controls}) => {
                 )}
             </div>
             <Items/>
+            <Comments/>
         </div>
     );
 };
