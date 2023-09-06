@@ -1,17 +1,17 @@
-import style from './Item.module.css'
+import style from './EpisodeItem.module.css'
 import React from "react";
 import {NavLink} from "react-router-dom";
 
-const Item = (props) => {
+const EpisodeItem = (props) => {
     return (
         <NavLink to={props.link}>
             <div className={style.item}>
                 <img
                     src={props.img}/>
-                episode {props.number}
+                <div className={style.name}>episode {props.number}</div>
             </div>
         </NavLink>
     )
 }
 
-export default Item;
+export default EpisodeItem;

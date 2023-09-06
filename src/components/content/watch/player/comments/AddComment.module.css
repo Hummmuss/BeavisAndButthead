@@ -1,0 +1,37 @@
+.wrap {
+    width: 600px;
+}
+
+.header {
+    font-family: "Archivo Black", sans-serif;
+    font-size: 3rem;
+    color: white;
+    margin: 15px 0 0 20px;
+}
+
+.author {
+    height: 30px;
+    width: 400px;
+    margin: 20px 0 20px 20px;
+}
+
+.input {
+    height: 100px;
+    width: 600px;
+    margin-left: 20px;
+}
+
+.button {
+    height: 40px;
+    width: 70px;
+    border-radius: 10%;
+    margin: 20px 0 0 20px;
+    background-color: darkorange;
+    border: darkorange;
+    color: black;
+}
+
+.button:hover {
+    background-color: brown;
+    color: white;
+}

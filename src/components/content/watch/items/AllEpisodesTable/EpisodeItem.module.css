@@ -20,3 +20,8 @@
     width: 160px;
     margin: 25.7px;
 }
+
+.name {
+    text-decoration: underline;
+    text-decoration-color: black;
+}

@@ -8,9 +8,9 @@ const Quotes = () => {
             <a className={style.heading}>Quotes</a>
             <div style={{marginTop: 30}}>
                 <OneQuote text='Однажды я упал и не поднялся' author="Beavis" img ="https://www.goldderby.com/wp-content/uploads/2023/06/TV-Movie-Beavis-and-Butt-Head-Do-the-Universe.jpg?w=620"/>
-                <OneQuote text='В чем сила брат мать троюродный дед' author="Butthead" img="https://i.ytimg.com/vi/CXmixO1MUhM/maxresdefault.jpg"/>
+                <OneQuote text='В чем сила, брат?' author="Butthead" img="https://i.ytimg.com/vi/CXmixO1MUhM/maxresdefault.jpg"/>
                 <OneQuote text='Почему' author="Я" img="https://cs10.pikabu.ru/post_img/big/2018/12/19/9/1545229625199757935.jpg"/>
-                <OneQuote text='Порхай как бабочка жаль что ты лох' author="Мухаммед Али" img="https://upload.wikimedia.org/wikipedia/commons/8/89/Muhammad_Ali_NYWTS.jpg"/>
+                <OneQuote text='Порхай как бабочка, жаль как пчела' author="Мухаммед Али" img="https://upload.wikimedia.org/wikipedia/commons/8/89/Muhammad_Ali_NYWTS.jpg"/>
                 <OneQuote text='Я в своем познании настолько преисполнился, что я как будто бы уже
 
 сто триллионов миллиардов лет проживаю на триллионах и

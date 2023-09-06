@@ -1,6 +1,6 @@
 import React from 'react';
 import style from './Nav.module.css'
-import navPic from "../../imgs/bg.svg"
+import navPic from "../../DATA/imgs/bg.svg"
 import {NavLink} from "react-router-dom";
 
 const Nav = () => {
@@ -16,12 +16,6 @@ const Nav = () => {
                 </div>
                 <div className={style.item}>
                     <NavLink to="/quotes">quotes</NavLink>
-                </div>
-                <div className={style.item}>
-                    <NavLink to="/about">hahaha</NavLink>
-                </div>
-                <div className={style.item}>
-                    <NavLink to="/about">hahaha</NavLink>
                 </div>
             </div>
         </nav>

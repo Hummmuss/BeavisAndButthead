@@ -6,11 +6,11 @@ const Quote = (props) => {
         <div style={{flexWrap: "wrap"}} className={style.item}>
             <img
                 src={props.img}/>
-            <div style={{paddingTop: 40}}>
-                <div style={{margin: 10}}>
+            <div className={style.textblock}>
+                <div className={style.text}>
                     "{props.text}"
                 </div>
-                <div style={{margin: 10}}>
+                <div className={style.author}>
                     - {props.author}
                 </div>
             </div>

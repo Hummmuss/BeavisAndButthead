@@ -22,9 +22,6 @@ const About = () => {
                 an unforgettable part of
                 1990s pop culture.
             </div>
-            <div>
-                ты лох
-            </div>
         </div>
     )
 }

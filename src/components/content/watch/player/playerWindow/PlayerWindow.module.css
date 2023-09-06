@@ -1,0 +1,19 @@
+.arrows {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+
+.arrow {
+    width: 40px;
+    margin: 30px;
+}
+.header {
+    margin-top: 30px;
+    font-family: "Archivo Black", sans-serif;
+    color: darkorange;
+    font-size: 3rem;
+}
+.player {
+    margin: 28px 20px 20px 20px;
+}
