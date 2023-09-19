@@ -3,10 +3,10 @@ import style from './Content.module.css'
 import AllEpisodeItems from './items/AllEpisodesTable/AllEpisodeItems'
 
 
-const Content = () => {
+const Content = (props) => {
     return (
         <div className={style.content}>
-            <AllEpisodeItems/>
+            <AllEpisodeItems EpisodesArray = {props.EpisodesArray}/>
         </div>
     );
 };

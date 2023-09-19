@@ -6,8 +6,8 @@ const ArrowL = () => (
         .st0 {
           fill: none;
           stroke: #F49819;
-          strokeWidth: 35;
-          strokeMiterlimit: 10;
+          stroke-width: 35;
+          stroke-miterlimit:10;
         }
       `}
         </style>

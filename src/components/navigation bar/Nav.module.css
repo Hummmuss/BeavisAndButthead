@@ -1,18 +1,12 @@
 .nav {
     position: fixed;
-    top: 79px;
-    left: 55px;
+    top: 69px;
+    left: -60px;
     color: white;
-    height: 1000px;
     font-family: "Archivo Black", sans-serif;
     font-size: 1.5rem;
     padding: 50px 0 0 35px;
     grid-area: n;
-}
-
-
-.nav img {
-    width: 100px;
 }
 
 .item {
@@ -21,18 +15,17 @@
 
 .item a {
     text-decoration: none;
-    color: darkorange;
+    color: black;
 }
 
 .item a:hover {
-    margin: 10px;
     text-decoration: none;
     color: brown;
 }
 
 .textblock {
     position: absolute;
-    text-align: left;
+    text-align: center;
     top: 90px;
-    left: 140px;
+    left: 215px;
 }

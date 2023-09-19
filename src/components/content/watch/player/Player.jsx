@@ -5,14 +5,15 @@ import FilteredComments from "./comments/filteredComments/FilteredComments";
 import PlayerWindow from "./playerWindow/PlayerWindow";
 import style from './Player.module.css'
 
-const Player = ({url, controls}) => {
+
+const Player = ({url, CommentsArray, EpisodesArray}) => {
 
     return (
         <div className={style.content}>
-            <PlayerWindow url={url} controls={controls}/>
+            <PlayerWindow url={url}/>
             <ScrollItems/>
             <AddComment/>
-            <FilteredComments url={url}/>
+            <FilteredComments url = {url} CommentsArray = {CommentsArray} EpisodesArray = {EpisodesArray}/>
         </div>
     );
 };

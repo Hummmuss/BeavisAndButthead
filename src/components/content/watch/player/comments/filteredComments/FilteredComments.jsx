@@ -1,11 +1,9 @@
 import React from 'react';
 import CommentItem from "../../comments/commentItem/CommentItem";
-import CommentsArray from "../../../../../../DATA/CommentsArray";
-import EpisodesArray from "../../../../../../DATA/EpisodesArray";
 import style from "./FilteredComments.module.css"
 import Beavis from "../../../../../../DATA/imgs/SadBeavis.png";
 
-const FilteredComments = ({url}) => {
+const FilteredComments = ({url, CommentsArray, EpisodesArray, }) => {
     const currentEpisodeIndex = EpisodesArray.findIndex(episode => episode.url === url);
     const filteredComments = CommentsArray.filter((comment) => comment.episodeID === currentEpisodeIndex);
     return (
